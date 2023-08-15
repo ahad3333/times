@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ahadhabib</title>
+  <link rel="icon" href="logoonedev.jpg">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      width: 400px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: #333333;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      color: #555555;
+    }
+
+    input[type="date"],
+    button {
+      padding: 10px;
+      margin-top: 5px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    p {
+      margin-top: 20px;
+      color: #333333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculate Time Since</h1>
+    <label for="birthdate">Date of Birth:</label>
+    <input type="date" id="birthdate"><br>
+    <button id="calculateButton">Calculate</button>
+    <p id="timeSince"></p>
+    <p id="times" ></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

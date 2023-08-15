@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Time Since Extension",
+    "version": "1.0",
+    "description": "Calculate time since March 3, 1999",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
